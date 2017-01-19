@@ -1,5 +1,5 @@
 FROM golang:1.6.2-alpine
-MAINTAINER Inforedaster
+MAINTAINER iiinforedaster
 RUN mkdir -p /web/static/
 
 COPY web.go /web/web.go
